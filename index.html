@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Find Your Film</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Inter Font API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Meta Tag -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="Movie Watchlist" />
+    <meta name="keywords" content="Movies, Watchlist" />
+    <meta name="author" content="Engin Barbaros Cobanoglu" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header></header>
+    <div class="header-section">
+      <nav class="header-nav">
+        <h1>Find your film</h1>
+        <h3><a href="watchlist.html" target="_blank">My Watchlist</a></h3>
+      </nav>
+      <form class="movie-search-form" id="movie-search-form">
+        <nav class="search-nav">
+          <label for="search-movie-input"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></label>
+          <input
+            type="text"
+            id="search-movie-input"
+            placeholder="Find your movie"
+          />
+          <button id="find-movie-btn" class="find-movie-btn" type="submit">
+            Search
+          </button>
+        </nav>
+      </form>
+    </div>
+
+    <main>
+      <section>
+        <div id="movies-list" class="movies-list">
+          <img src="images/Group 199.png" class="start-exploring-img" />
+        </div>
+      </section>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
