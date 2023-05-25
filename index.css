@@ -406,7 +406,7 @@ i {
   }
 }
 
-@media (min-width: 281px) {
+@media (max-width: 400px) {
   .remove-watchlist-btn {
     border: none;
     color: #961e1e;
