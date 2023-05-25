@@ -73,11 +73,7 @@ function renderMovieListHtml() {
 
 function addToWatchList(id) {
   const dataFromStorage = JSON.parse(localStorage.getItem("chosenMovie"));
-  if (dataFromStorage) {
-    chosenMoviesArr = dataFromStorage;
-  } else {
-    chosenMoviesArr = [];
-  }
+  chosenMoviesArr = dataFromStorage ?? [];
 
   const movieExists = chosenMoviesArr.some((movie) => movie.imdbID === id);
 
