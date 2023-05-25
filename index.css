@@ -465,18 +465,6 @@ i {
   .fa-plus {
     font-size: 1.6rem;
   }
-
-  .remove-watchlist-btn {
-    border: none;
-    color: #961e1e;
-    background-color: #e0cfcf;
-    width: 180px;
-    line-height: 1.9;
-    margin-top: 0.7em;
-    font-size: 0.8rem;
-    font-weight: 700;
-    border-radius: 5px;
-  }
 }
 
 @media (min-width: 768px) {
