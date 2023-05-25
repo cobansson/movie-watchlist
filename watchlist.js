@@ -29,7 +29,7 @@ function renderWatchlistHtml() {
                   <p>${movie.Runtime}</p>
                   <p>${movie.Genre}</p>
                   <div class="add-watchlist">
-                      <button class="remove-watchlist-btn" data-id="${movie.imdbID}">Remove From Watchlist</button>
+                      <button class="remove-watchlist-btn" data-id="${movie.imdbID}">Remove the Movie</button>
                   </div>
               </div>
               <h6>${movie.Plot}</h6>
